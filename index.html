@@ -1,31 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<style>
-@media screen  and (  max-width  :  600px  ) {   /*当屏幕尺寸小于600px时，应用下面的CSS样式*/   
-    body{
-        background-image: url('https://kalabobo95.github.io/source/png/whale_phone.jpg');
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-    }     
-}
-@media screen  and (  min-width  :  600px  ) {
-    body{
-        background-image: url('https://kalabobo95.github.io/source/png/whale.jpg');
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-    }     
-}
-/* body, html{
-    height: 100%;
-}
-* {
-    padding: 0;
-    margin: 0;
-} */
-</style>
+    <link rel="stylesheet" href="source/css/login.css">
     <link rel="icon" href="whale.ico" type="image/x-icon">
     <link rel="shortcut icon" href="whale.ico" type="image/x-icon">
     <meta charset="UTF-8">
@@ -33,6 +9,16 @@
     <title>Hi, 晋宝</title>
 </head>
 <body>
-    <!-- <img src="source/whale.jpg" alt="" width="100%" style="position: absolute;"> -->
+    <div class="container">
+        <h2>登录</h2>
+        <form>
+          <label for="username">用户名</label>
+          <input type="text" id="username" name="username" placeholder="用户名"  required>
+          <label for="password">密码</label>
+          <input type="password" id="password" name="password" placeholder="密码"  required>
+          <button type="submit">登录</button>
+        </form>
+      </div>
 </body>
 </html>
+<script src="source/js/login.js"></script>
