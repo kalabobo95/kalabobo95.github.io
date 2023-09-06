@@ -42,7 +42,7 @@
 
 @media screen  and (max-width: 1400px) and (min-width: 600px) {
     body{
-        background-image: url('../png/whale.jpg');
+        background-image: url('../png/whale_mid.jpeg');
         background-size: cover;
         background-repeat: no-repeat;
         background-attachment: fixed;
