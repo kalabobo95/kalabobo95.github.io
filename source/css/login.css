@@ -1,6 +1,6 @@
 @media screen  and (  max-width  :  600px  ) {   /*当屏幕尺寸小于600px时，应用下面的CSS样式*/   
     body{
-        background-image: url('source/png/whale_phone.jpg');
+        background-image: url('/source/png/whale_phone.jpg');
         background-size: cover;
         background-repeat: no-repeat;
         background-attachment: fixed;
@@ -41,7 +41,7 @@
 }
 @media screen  and (  min-width  :  600px  ) {
     body{
-        background-image: url('source/png/whale.jpg');
+        background-image: url('/source/png/whale.jpg');
         background-size: cover;
         background-repeat: no-repeat;
         background-attachment: fixed;
